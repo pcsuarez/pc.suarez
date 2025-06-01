@@ -16,7 +16,8 @@
     <div class="survey-form shadow-lg p-5 bg-white rounded-4">
       <h1 class="text-center mb-4">Employee Registration</h1>
 
-      <form>
+      <form action="submit.php" method="post" enctype="multipart/form-data">
+
         <!-- Full Name -->
         <div class="mb-3">
           <label for="name" class="form-label">Full Name</label>
@@ -80,10 +81,10 @@
           <textarea class="form-control" id="address" rows="2" placeholder="e.g. 123 Ocean View Lane, Aqua City" required></textarea>
         </div>
 
-        <!-- Portfolio -->
-        <div class="mt-4">
-          <label for="portfolio" class="form-label">Portfolio URL</label>
-          <input type="url" class="form-control" id="portfolio" placeholder="e.g. https://yourportfolio.com">
+        <!-- Resume -->
+        <div class="mb-4">
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required />
         </div>
 
         <!-- Message -->
