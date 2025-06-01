@@ -1,0 +1,102 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.resume {
+  max-width: 800px;
+  text-align: left;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.contact-info h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.contact-info p,
+.contact-info a {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.content {
+  margin-top: 2rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.attachments {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.attachments h2 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.media-box,
+.gallery-box {
+  margin-bottom: 2rem;
+}
+
+.gallery-box img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+.gallery-box img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.attachment-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.attachment-links a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.attachment-links a:hover {
+  text-decoration: underline;
+}
